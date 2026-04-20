@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{meta_title}} (Custom Layout)</title>
+    <style>
+        body {
+            font-family: "Courier New", Courier, monospace;
+            background: #333;
+            color: #fff;
+            padding: 50px;
+        }
+
+        .boxy {
+            border: 10px solid #fff;
+            padding: 40px;
+            background: #000;
+        }
+
+        a {
+            color: #0ff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxy">
+        <h1>Special Layout</h1>
+        {{content}}
+        <hr>
+        <a href="/">back home</a>
+    </div>
+</body>
+
+</html>
