@@ -7,6 +7,7 @@
 # please make my site
 
 pmms is a small but powerful static site generator, enclosed within a 600~ LOC python file. Like jekyll but with none of the fuss.
+(unix only, windows will not like it because no termios)
 
 ## features
 
